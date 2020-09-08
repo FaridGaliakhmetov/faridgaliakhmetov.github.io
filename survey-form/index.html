@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>survey form</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <style>
+	
+  </style>
+</head>
+<body>
+<div id="box">
+<h1 id="title">Survey Form</h1>
+<p id="description">Thank you for taking the time to help us improve the platform</p>
+<form id="survey-form">
+  <div id="inside">
+    <label id="name-label" class="lab">Name</label>
+    <input id="name" type="text" placeholder="Enter your name" name="name" required></input>
+    <label id="email-label" class="lab">Email</label>
+    <input id="email" type="email" placeholder="Enter your Email" name="email" required></input>
+    <label id="number-label" class="lab">Age(optionl)</label>
+    <input type="number" id="number" placeholder="Age" min="10" max="99" name="age"></input>
+    <label for="dropdown" class="lab">Which option best describes your current role?</label>
+    <select id="dropdown">
+      <option value="select-current-role">Select current role</option>
+      <option value="student">Student</option>
+      <option value="fill-time-job">Fill Time Job</option>
+      <option value="fill-time-job">Full Time Learner</option>
+      <option value="prefer-not-to-say">Prefer not to say</option>
+      <option>Other</option>
+    </select>
+    <p class="lab">Would you recommend freeCodeCamp to a friend?</p>
+    <label>
+      <input id="definitely" class="input-radio" type="radio" name="rec" value="definitely"/>Definitely
+    </label>
+    <label>
+      <input id="maybe" class="input-radio" type="radio" name="rec" value="maybe"/>Maybe</label>
+    <label>
+      <input id="not-sure" class="input-radio" type="radio" name="rec" value="not-sure"/>Not sure</label>
+    <p class="lab">What is your favorite feature of freeCodeCamp?</p>
+    <select id="dropdown2">
+      <option value="select-an-option">Select an option</option>
+      <option value="challenges">Challenges</option>
+      <option value="project">Project</option>
+      <option value="community">Community</option>
+      <option value="open-source">Open Source</option>
+    </select>
+    <p class="lab">What would you like to see improved?</p>
+<label>
+    <input type="checkbox" id="improve1" class="input-checkbox" name="improve1" value="front"/>Front-end Projects</label>
+<label>
+    <input type="checkbox" id="improve2" class="input-checkbox" name="improve2" value="back"/>Back-end Projects</label>
+<label>
+    <input type="checkbox" id="improve3" class="input-checkbox" name="improve3" value="datavis"/>Data Visualization</label>
+<label>
+    <input type="checkbox" id="improve4" class="input-checkbox" name="improve4" value="challenges"/>Challenges</label>
+<label>
+    <input type="checkbox" id="improve5" class="input-checkbox" name="improve5" value="opens"/>Open Source Community</label>
+<label>
+    <input type="checkbox" id="improve6" class="input-checkbox" name="improve6" value="gitter"/>Gitter help rooms</label>
+<level>
+    <input type="checkbox" id="improve7" class="input-checkbox" name="improve7" value="videos"/>Videos</label>
+<label>
+    <input type="checkbox" id="improve8" class="input-checkbox" name="improve8" value="meetups"/>City Meetups</label>
+<label>
+    <input type="checkbox" id="improve9" class="input-checkbox" name="improve9" value="wiki"/>Wiki</label>
+<label>
+    <input type="checkbox" id="improve10" class="input-checkbox" name="improve10" value="forum"/>Forum</label>
+<label>
+    <input type="checkbox" id="improve11" class="input-checkbox" name="improve11" value="adcourses"/>Additional Courses</label>
+    <p class="lab">Any comments or suggestions?</p>
+    <textarea id="area">Enter your comment here...</textarea>
+    <input type="submit" id="submit" value="Submit"></input>
+  </div>
+</form>
+</div>
+</body>
+</html>

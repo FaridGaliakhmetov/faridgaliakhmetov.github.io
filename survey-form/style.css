@@ -1,0 +1,48 @@
+*{
+  box-sizing:border-box;
+}
+body {
+  color:white;
+  background-color:hsl(240, 30%, 50%);
+}
+#survey-form {
+  width:50%;
+  margin:auto;
+  background-color:hsl(230,50%,25%);
+  border-radius:5px;
+}
+select,input {
+  display:block;
+}
+#inside {
+  width:90%;
+  margin:auto;
+  padding-bottom:45px;
+}
+#name,#email,#number,#dropdown,#dropdown2,#area,#submit {
+  width:100%;
+  border-radius:5px;
+  height:2.375rem;
+}
+#title,#description {
+  text-align:center;
+}
+label{
+  display:block;
+}
+.input-radio,.input-checkbox {
+  display:inline-block;
+  
+}
+.lab {
+  padding:25px  0px 10px;
+  display:block;
+  margin:0;
+}
+#area {
+  height:120px;
+  padding:10px
+}
+#submit {
+  margin:20px 0 0px;
+}
